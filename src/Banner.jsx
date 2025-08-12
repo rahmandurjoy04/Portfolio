@@ -6,7 +6,7 @@ import SocialLinks from './Components/SocialLinks';
 
 const Banner = () => {
     return (
-        <div className='flex flex-col justify-center items-center md:flex-row min-w-sm px-10 pt-10 mt-10 rounded-xl border max-w-11/12 mx-auto bg-[linear-gradient(to_right,_#202c46_0%,_#6dbfb8_100%)]'>
+        <div className='flex flex-col justify-center items-center md:flex-row min-w-sm px-10 rounded-xl border max-w-11/12 mx-auto bg-[linear-gradient(to_right,_#202c46_0%,_#6dbfb8_100%)] min-h-[80vh]'>
             {/* Left Div */}
             <div className='w-full flex flex-col gap-7 md:w-8/12 text-amber-50'>
                 <h1 className='text-4xl font-bold'><span className='text-xl'>Hello I'm</span> <br /> Naimur Rahman Durjoy</h1>
@@ -20,7 +20,7 @@ const Banner = () => {
 
             </div>
             {/* Right Div */}
-            <div className='w-full  md:w-4/12'>
+            <div className='w-full  md:w-4/12 h-full' >
             <MyImage></MyImage>
             </div>
         </div>

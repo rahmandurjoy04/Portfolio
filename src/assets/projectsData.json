@@ -1,0 +1,35 @@
+[
+  {
+    "id": "plate-share",
+    "name": "PlateShare",
+    "image": "https://i.ibb.co.com/dsCxM8xy/Plate-Share-Home.png",
+    "description": "A food donation platform with roles like User, Charity, Restaurant, Admin, including Stripe integration, donation listings, and requests.",
+    "techStack": ["React", "Node.js", "MongoDB", "Stripe", "Express", "Firebase"],
+    "liveLink": "https://a-12-plateshare.web.app/",
+    "githubClient": "https://github.com/rahmandurjoy04/PlateShare-Food-Management-Chain",
+    "challenges": "Integrating real-time requests and role-based access control was challenging.",
+    "improvements": "Planning to add more analytics dashboards and enhance UI responsiveness."
+  },
+  {
+    "id": "knowhive",
+    "name": "Knowhive",
+    "image": "https://i.ibb.co.com/KBF5JwR/Know-Hive-Home.png",
+    "description": "Knowhive is a knowledge-sharing platform designed to connect learners and experts. It enables users to share articles and engage in meaningful discussions.",
+    "techStack": ["React", "Node.js", "MongoDB", "Express","Firebase"],
+    "liveLink": "https://a11-knowhive.web.app/",
+    "githubClient": "https://github.com/rahmandurjoy04/KnowHive-The-Ultimate-Knowledge-Sharing-Platform",
+    "challenges": "Handling content moderation and building a robust commenting system was tricky.",
+    "improvements": "Future plans include adding real-time chat and improving search functionality."
+  },
+  {
+    "id": "recipe-book",
+    "name": "Recipe Book",
+    "image": "https://i.ibb.co.com/qYNDJVnC/Recipe-book-Home.png",
+    "description": "Recipe Book App is a dynamic and user-friendly platform for food enthusiasts to discover, save, and share delicious recipes.",
+    "techStack": ["React", "Firebase","Node.js", "MongoDB", "Express"],
+    "liveLink": "https://recipe-book-a-10.web.app/",
+    "githubClient": "https://github.com/rahmandurjoy04/Recipe-book-Creating-New-Recipes",
+    "challenges": "Implementing efficient recipe search and filtering was a key challenge.",
+    "improvements": "Planning to add meal planning and grocery list features."
+  }
+]

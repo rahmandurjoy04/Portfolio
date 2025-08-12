@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <section className="min-w-sm w-full">
+        <section className="min-w-sm w-full pt-16">
             <h2 className="text-4xl font-bold text-center mt-10 text-gray-800">About Me</h2>
             <p className="max-w-3xl mx-auto mt-5 mb-3 text-center text-gray-700 text-lg leading-relaxed">
                 I’m a passionate and curious web developer with a knack for turning complex ideas into simple, elegant solutions.

@@ -15,11 +15,11 @@ const Navbar = () => {
   }, []);
 
     const links = <>
-      <a href="#home" className={activeHash === '#home' || activeHash === '' ? 'active' : ''}>Home</a>
-      <a href="#about" className={activeHash === '#about' ? 'active' : ''}>About</a>
-      <a href="#skills" className={activeHash === '#skills' ? 'active' : ''}>Skills</a>
-      <a href="#projects" className={activeHash === '#projects' ? 'active' : ''}>Projects</a>
-      <a href="#contact" className={activeHash === '#contact' ? 'active' : ''}>Contact</a>
+      <a href="/#home" className={activeHash === '#home' || activeHash === '' ? 'active' : ''}>Home</a>
+      <a href="/#about" className={activeHash === '#about' ? 'active' : ''}>About</a>
+      <a href="/#skills" className={activeHash === '#skills' ? 'active' : ''}>Skills</a>
+      <a href="/#projects" className={activeHash === '#projects' ? 'active' : ''}>Projects</a>
+      <a href="/#contact" className={activeHash === '#contact' ? 'active' : ''}>Contact</a>
     </>
 
 
