@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../assets/my-img.png'
+import myImage from '../assets/my-new-img.webp'
 
 const MyImage = () => {
     return (

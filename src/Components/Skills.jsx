@@ -33,13 +33,13 @@ const Skills = () => {
     ];
 
     return (
-        <section className="max-w-11/12 mx-auto py-16">
-            <div className="container mx-auto">
+        <section className="bg-base-100 py-16">
+            <div className="max-w-11/12 mx-auto">
                 <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">My Skills</h2>
 
                 {skills.map((category, idx) => (
                     <div key={idx} className="mb-12">
-                        <h3 className="text-3xl font-semibold text-gray-800 mb-6 text-center">{category.category}</h3>
+                        <h3 className="text-3xl font-semibold text-gray-800 mb-6 ">{category.category}</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
                             {category.items.map((skill, index) => (
                                 <div

@@ -6,20 +6,20 @@ const Navbar = () => {
 
     const [activeHash, setActiveHash] = useState(window.location.hash || '');
 
-  useEffect(() => {
-    const onHashChange = () => {
-      setActiveHash(window.location.hash);
-    };
-    window.addEventListener('hashchange', onHashChange);
-    return () => window.removeEventListener('hashchange', onHashChange);
-  }, []);
+    useEffect(() => {
+        const onHashChange = () => {
+            setActiveHash(window.location.hash);
+        };
+        window.addEventListener('hashchange', onHashChange);
+        return () => window.removeEventListener('hashchange', onHashChange);
+    }, []);
 
     const links = <>
-      <a href="/#home" className={activeHash === '#home' || activeHash === '' ? 'active' : ''}>Home</a>
-      <a href="/#about" className={activeHash === '#about' ? 'active' : ''}>About</a>
-      <a href="/#skills" className={activeHash === '#skills' ? 'active' : ''}>Skills</a>
-      <a href="/#projects" className={activeHash === '#projects' ? 'active' : ''}>Projects</a>
-      <a href="/#contact" className={activeHash === '#contact' ? 'active' : ''}>Contact</a>
+        <a href="/#home" className={activeHash === '#home' || activeHash === '' ? 'active' : ''}>Home</a>
+        <a href="/#about" className={activeHash === '#about' ? 'active' : ''}>About</a>
+        <a href="/#skills" className={activeHash === '#skills' ? 'active' : ''}>Skills</a>
+        <a href="/#projects" className={activeHash === '#projects' ? 'active' : ''}>Projects</a>
+        <a href="/#contact" className={activeHash === '#contact' ? 'active' : ''}>Contact</a>
     </>
 
 
@@ -53,8 +53,10 @@ const Navbar = () => {
                 {/* Last Div */}
                 <div className=" flex justify-end space-x-3">
 
-                    <button className='btn text-black btn-primary'><FaDownload></FaDownload> Resume</button>
+                    <a href="/Resume-Durjoy.pdf" download="Naimur_Rahman_Resume.pdf">
+                        <button className='btn text-black btn-primary'><FaDownload></FaDownload> Resume</button>
 
+                    </a>
                 </div>
             </div>
         </div>

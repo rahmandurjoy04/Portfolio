@@ -16,12 +16,14 @@ const Banner = () => {
                 <div>
                     <SocialLinks></SocialLinks>
                 </div>
-                <button className='btn btn-sm w-xs py-5 bg-primary border-0 shadow-none flex justify-center items-center gap-2'><FaDownload className='text-lg'></FaDownload>Download Resume</button>
+                <a href="/Resume-Durjoy.pdf" download="Naimur_Rahman_Resume.pdf">
+                    <button className='btn btn-sm px-6 py-5 bg-primary border-0 shadow-none flex justify-center items-center gap-2'><FaDownload className='text-lg'></FaDownload>Download Resume</button>
+                </a>
 
             </div>
             {/* Right Div */}
             <div className='w-full  md:w-4/12 h-full' >
-            <MyImage></MyImage>
+                <MyImage></MyImage>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <section className="min-w-sm w-full pt-16">
             <h2 className="text-4xl font-bold text-center mt-10 text-gray-800">About Me</h2>
-            <p className="max-w-3xl mx-auto mt-5 mb-3 text-center text-gray-700 text-lg leading-relaxed">
+            <p className="text-center mx-auto mt-5 mb-3 text-gray-700 text-lg leading-relaxed">
                 I’m a passionate and curious web developer with a knack for turning complex ideas into simple, elegant solutions.
                 My journey has been fueled by creativity and a love for learning, and I’m excited to build projects that make a real impact.
             </p>
@@ -35,7 +35,7 @@ const AboutMe = () => {
                 </div>
                 {/* Personal Touch Section */}
                 <div className="mt-12 text-center">
-                    <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+                    <p className="text-lg text-gray-700 mb-2 mx-auto">
                         A passionate and curious web developer who turns complex ideas into simple, user-friendly solutions with creativity and care.                    </p>
                     <a
                         href="#contact"

@@ -13,7 +13,7 @@ const Contact = () => {
                 Feel free to reach out to me directly via any of the following methods. I’m looking forward to hearing from you!
             </p>
 
-            <div className='flex flex-col-reverse md:flex-row justify-between items-center'>
+            <div className='flex flex-col-reverse md:flex-row justify-center gap-15 items-center'>
                 <div className="flex flex-col space-y-6 text-gray-700 text-lg">
                     <p className='flex items-center hover:text-primary'>
                         <FaLocationDot className="text-primary mr-4 w-6 h-6"></FaLocationDot>
